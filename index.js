@@ -5,7 +5,7 @@
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
                      callback: showInfo,
-                     simpleSheet: true } )
+                     simpleSheet: false } )
   }
 
   function showInfo(data, tabletop) {
